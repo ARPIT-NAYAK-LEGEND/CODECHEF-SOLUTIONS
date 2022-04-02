@@ -1,0 +1,290 @@
+int main(){
+	int t,a,b,d;
+	cin >> t;
+	while(t--){
+		cin >> a >> b;
+		d = a-b;
+		cout << d << endl;
+	}
+}
+
+// CODECHEF BEGINEER 2 PROBLEM
+
+int main(){
+	int t,n,m,t1,t2,t3;
+	cin >> t;
+	while(t--){
+		cin >> n >> m;
+		t1 = n*2;
+		t2 = m*4;
+		t3 = t1+t2;
+		cout << t3 << endl;
+	}
+}
+
+
+// CODECHEF BEGINEER 3 PROBLEM
+int main(){
+	int x,y,r;
+		cin >> x >> y;
+		r = x*y;
+		cout << r << endl;
+	}
+
+
+//CODECHEF BEGINEER 4 PROBLEM
+int main(){
+	int t,p;
+	cin >> t;
+	while(t--){
+		cin >> p;
+		if(p<=15){
+			cout << "yes" << endl;			
+		}
+		else{
+			cout << "No" << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 5 PROBLEM
+int main(){
+	int t,c,x,y,l,rc;
+	cin >> t;
+	while(t--){
+		cin >> c >> x >> y;
+		l = c-x;
+		rc = l*y;
+		cout << rc << endl;
+	}
+}
+
+
+//CODECHEF BEGINEER 5 PROBLEM
+int main(){
+	int t,x,rt;
+	cin >> t;
+	while(t--){
+		cin >> x;
+		rt = 3+x;
+		if(rt<=10){
+			cout << "Yes" << endl;
+		}
+		else{
+			cout << "No" << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 4 PROBLEM
+int main(){
+	int t,x,c;
+	cin >> t;
+	while(t--){
+		cin >> x;
+		if(x<=100){
+			c = 100-x;
+			cout << c << endl;
+		}
+		else{
+			exit(-1);
+		}
+	}
+}
+
+//CODECHEF BEGINEER 5 PROBLEM
+int main(){
+	int t,x,y,tt;
+	cin >> t;
+	while(t--){
+		cin >> x >> y;
+		tt = (x*10)+(y*5);
+		cout << tt << endl;
+	}
+}
+
+//CODECHEF BEGINEER 6 PROBLEM
+int main(){
+	int t,a,b,x,y,f1,f2;
+	cin >> t;
+	while(t--){
+		cin >> a >> b >> x >> y;
+			f1 = a*b;
+			f2 = x*y;
+			if(f2>=f1){
+				cout << "Yes" << endl;
+			}
+			else{
+				cout << "No" << endl;
+			}
+	}
+}
+
+//CODECHEF BEGINEER 7 PROBLEM
+int main(){
+	int t,n,p,nb;
+	cin >> t;
+	while(t--){
+		cin >> n;
+		p = n*1000;
+		nb = p/100;
+		cout << nb << endl;
+	}
+}
+
+//CODECHEF BEGINEER 8 PROBLEM
+int main(){
+	int t,x,y;
+	cin >> t;
+	while(t--){
+		cin >> x >> y;
+		if(x<y){
+			cout << "BIKE" << endl;
+		}
+		else if(x>y){
+			cout << "CAR" << endl;
+		}
+		else{
+			cout << "SAME" << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 9 PROBLEM
+int main(){
+	int t,n;
+	cin >> t;
+	while(t--){
+		cin >> n;
+		if(n%4==0){
+			cout << "Good" << endl;
+		}
+		else{
+			cout << "Not Good" << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 10 PROBLEM
+int main(){
+	int t,x,a,b,s;
+	cin >> t;
+	while(t--){
+		cin >> x >> a >> b;
+		s = (a*1)+(b*2);
+		if(s>=x){
+			cout << "Qualify" << endl;
+		}
+		else{
+			cout << "NotQualify" << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 11 PROBLEM
+int main(){
+	int t,a,b,c,m;
+	cin >> t;
+	while(t--){
+		cin >> a >> b >> c;
+		if(a>b){
+			if(a>c){
+				cout << a << endl;
+			}
+			else{
+				cout << c << endl;
+			}
+		}
+		else if(b>c){
+			cout << b << endl;
+		}
+		else{
+			cout << c << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 12 PROBLEM
+int main(){
+	int x,y,s,r,tt;
+		cin >> x >> y;
+		s = y/2;
+		r = x-y;
+		tt = r+s;
+		cout << tt; 
+	}
+
+//CODECHEF BEGINEER 13 PROBLEM
+int main(){
+	int t,x,y,n,m;
+	cin >> t;
+	while(t--){
+		cin >> x >> y;
+		n = x/y;
+		m = abs(n);
+		cout << m << endl;
+	}
+}
+
+//CODECHEF BEGINEER 14 PROBLEM
+int main(){
+	int t,x,y,p;
+	double r;
+	cin >> t;
+	while(t--){
+		cin >> x >> y;
+		r = y*2;
+		if(r>x){
+			cout << "0" << endl;
+		}
+		else{
+			p = x/r;
+			cout << p << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 15 PROBLEM
+int main(){
+	int t,n,x,k,p;
+	cin >> t;
+	while(t--){
+		cin >> n >> x >> k;
+		if(k>=x){
+			p = k/x;
+			if(n>=p){
+				cout << p << endl;
+			}
+			else{
+				cout << n << endl;
+			}
+		}
+		else{
+			cout << "0" << endl;
+		}
+	}
+}
+
+//CODECHEF BEGINEER 16 PROBLEM
+int main(){
+	int x;
+	cin >> x;
+	if(x>=750){
+		cout << "Yes";
+	}
+	else{
+		cout << "NO";
+	}
+}
+
+//CODECHEF BEGINEER 17 PROBLEM
+int main(){
+	int t,x,y,p,n;
+	cin >> t;
+	while(t--){
+		cin >> x >> y;
+		p = x*y;
+		n = p/100;
+		cout << n << endl;
+	}
+}
